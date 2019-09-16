@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="date.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="time"></div>
+    <script>
+        var time1 = new Date().Format("yyyy-MM-dd HH:mm:ss.S");
+        var time2 = new Date().pattern("yyyy-MM-dd EEE HH:mm:ss.S q")
+
+        console.log(time1, time2)
+    </script>
+</body>
+
+</html>
